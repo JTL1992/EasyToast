@@ -127,7 +127,7 @@ class ToastWindow: UIWindow {
         self.isOpaque = false
         self.backgroundColor = UIColor.clear
         self.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        self.windowLevel = UIWindow.Level.normal
+        self.windowLevel = UIWindowLevelNormal
         self.rootViewController = self.containerVC
         self.toastView.addSubview(self.textLabel)
         self.isUserInteractionEnabled = false
